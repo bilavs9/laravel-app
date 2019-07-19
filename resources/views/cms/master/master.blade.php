@@ -1,0 +1,7 @@
+@include('cms.layouts.header')
+@include('cms.layouts.footer')
+@include('cms.layouts.sidebar')
+@yield('header')
+    @yield('sidebar')
+    @yield('content')
+@yield('footer')
